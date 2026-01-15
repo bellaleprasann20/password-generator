@@ -1,0 +1,36 @@
+.copy-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  padding: 8px;
+}
+
+.copy-button:hover {
+  transform: scale(1.1);
+}
+
+.copy-button:active {
+  transform: scale(0.9);
+}
+
+.copy-icon {
+  width: 24px;
+  height: 24px;
+  /* If your SVG is black, this filter turns it into the neon green theme */
+  filter: invert(85%) sepia(21%) saturate(785%) hue-rotate(65deg) brightness(108%) contrast(101%);
+}
+
+.copy-status {
+  color: #a4ffaf;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.copy-button.copied {
+  pointer-events: none; /* Prevent double clicking while "Copied" is shown */
+}
