@@ -1,16 +1,67 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure and customizable password generator built with vanilla JavaScript that helps users create strong, random passwords.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate random passwords with customizable length
+- Include/exclude uppercase letters, lowercase letters, numbers, and special characters
+- Copy to clipboard functionality
+- Password strength indicator
+- Responsive design for all devices
+- Clean and intuitive user interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone https://github.com/bellaleprasann20/password-generator
+```
+
+2. Navigate to the project directory:
+```bash
+cd password-generator
+```
+
+3. Open `index.html` in your browser or use a local server
+
+## Usage
+
+1. Select desired password length using the slider
+2. Choose character types (uppercase, lowercase, numbers, symbols)
+3. Click "Generate Password" button
+4. Click the copy icon to copy password to clipboard
+
+## Project Structure
+
+```
+password-generator/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Contact
+
+Your Name - your.email@example.com
+
+Project Link: https://github.com/yourusername/password-generator
+
+---
+
+**Commit Message:** `docs: add comprehensive README for password generator project`
