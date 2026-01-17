@@ -60,7 +60,7 @@ This project is open source and available under the MIT License.
 
 Your Name - your.email@example.com
 
-Project Link: https://github.com/yourusername/password-generator
+Project Link: https://github.com/bellaleprasann20/password-generator
 
 ---
 
